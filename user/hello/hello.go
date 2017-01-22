@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"gosite/user/stringutil"
+	"math/rand"
 )
 
 func main() {
-	fmt.Printf(stringutil.Reverse("!oG,olleH"))
+	fmt.Println("My favorite number is", rand.Seed(100))
 }
