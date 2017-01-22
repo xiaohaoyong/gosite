@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"gosite/user/stringutil"
 )
 
 func main() {
-	fmt.Printf("Hello world")
+	fmt.Printf(stringutil.Reverse("!oG,olleH"))
 }
